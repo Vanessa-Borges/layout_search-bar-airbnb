@@ -1,6 +1,6 @@
 /* Peso 300 (Regular/Book) */
 @font-face {
-  font-family: Avenir;
+  font-family: Avenir, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,16 +9,16 @@
 
 /* Peso 400 (Regular/Book) */
 @font-face {
-  font-family: Avenir;
+  font-family: Avenir, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('./fonts/Avenir-Book.ttf') format('truetype');
+  src: url('./fonts/Avenir-Medium.ttf') format('truetype');
 }
 
 /* Peso 900 (Black) */
 @font-face {
-  font-family: Avenir;
+  font-family: Avenir, Arial, sans-serif;
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,10 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding-top: 20px;
+
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: Avenir, sans-serif;
   font-weight: 300;
 }
